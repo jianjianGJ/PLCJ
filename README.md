@@ -1,7 +1,7 @@
 # PLCJ
 This is the code for paper "Partition and Learned Clustering with Joined-training:Active Learning of GNNs on Large-scale Graph". 
 
-<img src="https://github.com/jianjianGJ/PLCJ/blob/main/frame.png" width="200" height="200" />
+<img src="https://github.com/jianjianGJ/PLCJ/blob/main/frame.png" width="350" height="350" />
 Running the code requires the device to have a GPU and install CUDA.
 
 ## Run
