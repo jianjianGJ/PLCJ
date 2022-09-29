@@ -6,7 +6,7 @@ This is the code for PLCJ (Partition and Learned Clustering with Joined-training
 </div>
 
 ## Datasets
-We used datasets Reddit, ogbn-arxiv, ogbn-mag, ogbn-products in the experiments. When run `main.py`, the specified dataset will be automatically downloaded, here is the info table of the dataset. 
+We used datasets Reddit, ogbn-arxiv, ogbn-mag, ogbn-products in the experiments. When run `main.py`, the specified dataset will be automatically downloaded, here is the info table of the datasets. 
 <div align=center>
   
 |  Dataset |#Classes|#Features|#Nodes| #Edges|
