@@ -5,14 +5,14 @@ This is the code for PLCJ (Partition and Learned Clustering with Joined-training
 </div>
 ## Datasets
 We used datasets Reddit, ogbn-arxiv, ogbn-mag, ogbn-products in the experiments. When run `main.py`, the specified dataset will be automatically downloaded, here is the info table of the dataset. 
-
+<div align=center>
 |  Dataset |#Classes|#Features|#Nodes| #Edges|
 |   :----: | :----: | :----: | :----: | :----: |
 | Arxiv    | 40 | 128 |169343| 1166243|
 | Mag      | 349 |128 |736389| 5396336|
 | Products | 47 |100 | 2449029| 61859140|
 | Reddit   | 41 |602 |232965| 11606919|
-
+</div>
 ## Run
 run `python main.py --dataset=arxiv --need=500 --n-run=1 --mode=PLCJ --gpu=0`
 
