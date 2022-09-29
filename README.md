@@ -18,10 +18,18 @@ We used datasets Reddit, ogbn-arxiv, ogbn-mag, ogbn-products in the experiments.
   
 </div>
 
-## Run
-run `python main.py --dataset=arxiv --need=500 --n-run=1 --mode=PLCJ --gpu=0`
-
 ## Requirement
 * ogb       1.3.1
 * torch     1.8.0+cu111
 * dgl       0.7.1
+
+## Run
+The interface of the code is `main.py`. `--dataset` is used to specify the dataset, `--need` specifies the number of training nodes required. `main.py` contains the evaluation process, which will automatically output performance evaluation.
+For example: `python main.py --dataset=arxiv --need=500 --n-run=1 --mode=PLCJ --gpu=0`
+
+## Results
+
+|dataset|Arxiv|Arxiv|Arxiv|Reddit|Reddit|Reddit|Mag|Mag|Mag|Products|Products|Products|
+|need|100|500|1000|100|500|1000|500|1000|1500|100|500|1000|
+|accuracy| 51.06 ± 2.33|||||||||||||||||||||
+
