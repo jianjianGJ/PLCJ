@@ -4,6 +4,7 @@ This is the code for PLCJ (Partition and Learned Clustering with Joined-training
 <img src="https://github.com/jianjianGJ/PLCJ/blob/main/frame.png" width="350" height="350" />
 ## Datasets
 We used datasets Reddit, ogbn-arxiv, ogbn-mag, ogbn-products in the experiments. When run `main.py`, the specified dataset is automatically downloaded, here is the info table of the dataset. 
+
 |  Dataset |#Classes|
 |   :----: | :----: |
 | Arxiv    | 40 |
