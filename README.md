@@ -5,6 +5,12 @@ This is the code for PLCJ (Partition and Learned Clustering with Joined-training
 <img src="https://github.com/jianjianGJ/PLCJ/blob/main/frame.png" width="350" height="350" />
 </div>
 
+
+## Requirement
+* ogb       1.3.1
+* torch     1.8.0+cu111
+* dgl       0.7.1
+
 ## Datasets
 We used datasets Reddit, ogbn-arxiv, ogbn-mag, ogbn-products in the experiments. When run `main.py`, the specified dataset will be automatically downloaded, here is the info table of the datasets. 
 <div align=center>
@@ -17,11 +23,6 @@ We used datasets Reddit, ogbn-arxiv, ogbn-mag, ogbn-products in the experiments.
 | Reddit   | 41 |602 |232965| 11606919|
   
 </div>
-
-## Requirement
-* ogb       1.3.1
-* torch     1.8.0+cu111
-* dgl       0.7.1
 
 ## Run
 The interface of the code is `main.py`. `--dataset` is used to specify the dataset, `--need` specifies the number of training nodes required. `main.py` contains the evaluation process, which will automatically output performance evaluation.
